@@ -5,9 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Perfil</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
-    <ul>
+    <ul id="menu">
         <li>
             <a href="index.html">Home</a> 
         </li>
@@ -15,29 +17,65 @@
             <a href="contato.html">Contato</a>
         </li>
     </ul>
-    <h1>Sobre o Vitor Vinicius</h1>
-    <p>
-        Lorem ipsum dolor sit amet consectetur 
-        adipisicing elit. Ex repellendus neque distinctio facilis sequi culpa, 
-        voluptate natus sed minima temporibus et 
-        error at ea nostrum mollitia autem optio earum voluptates?
-    </p>
-    <p>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-    Impedit natus numquam illum adipisci alias dolor, exercitationem
-    totam ad id cupiditate quibusdam velit tempore quae maiores sit labore, 
-    earum vel delectus.
-    </p>     
-    <img src="assets/img/fiuk.jpg" alt="Esse é o famoso Vitinho"> 
 
-    <h1>Meu video favorito</h1>
-    <iframe width="560" height="315" 
-    src="https://www.youtube.com/embed/bZUlJvgXC_U" 
-    title="YouTube video player" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen
-    ></iframe>
+    <h1 class="center">Sobre o Vitor Vinicius</h1>
+    <div class="container">
+        <div>
+            <img class="br-50 wh-300 p30" src="assets/img/fiuk.jpg" alt="Esse é o famoso Vitinho"> 
+        </div>
+        
+        <div class="p30">
+            <p class="justify"> 
+                Lorem ipsum dolor sit amet consectetur 
+                adipisicing elit. Ex repellendus neque distinctio facilis sequi culpa, 
+                voluptate natus sed minima temporibus et 
+                error at ea nostrum mollitia autem optio earum voluptates?
+            </p>
+        </div>
+        <div>
+            <p class="justify">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Impedit natus numquam illum adipisci alias dolor, exercitationem
+            totam ad id cupiditate quibusdam velit tempore quae maiores sit labore, 
+            earum vel delectus.
+            </p>     
+        </div>
+
+     
+
+    </div>
+    
+
+    <h1 class="center">Meu video favorito</h1>
+
+    <div class="container mb50px">
+        <iframe width="560" height="315" 
+        src="https://www.youtube.com/embed/bZUlJvgXC_U" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen
+        ></iframe>
+    </div>
+
+    <footer>
+        <div class="container">
+            <a href="https://www.facebook.com/" target="_blank">
+                <img class="tm-social p30" src="assets/img/facebook.png" alt="Logo facebook">
+            </a>
+            <a href="https://www.linkedin.com/" target="_blank">
+                <img class="tm-social p30" src="assets/img/linkedin.png" alt="Logo linkedn">
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+                <img class="tm-social p30" src="assets/img/instagram.png" alt="Logo instagram">
+            </a>
+        </div>
+        <p class="center">
+            Todos os direitos reservados para Vitor VInicius &copy;
+        </p>
+        
+    </footer>
+
 
 </body>
 </html>
