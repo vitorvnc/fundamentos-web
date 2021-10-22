@@ -55,6 +55,12 @@ Estilos da pagina index.html
     margin-bottom: 50px;
 }
 
+.glow img:hover{
+    outline-color: rgb(209, 237, 245);
+    outline-width: 10em;
+    box-shadow: 0em 0em .75em rgba(56, 157, 175, 0.95);
+}
+
 /*
 Estilos da pagina contato.html
 */
@@ -62,3 +68,9 @@ Estilos da pagina contato.html
 .ml-50px{
     margin-left: 50px;
 }
+
+#mapa{
+    transition: 0.5s ease-in-out;
+    border-radius: 5%;
+}
+
